@@ -112,7 +112,7 @@ body {
     position: relative;
 }
 
-    @media (min-width: 480px) {
+    /* @media (min-width: 480px) {
         .container{
             max-height: 400px;
         }
@@ -123,7 +123,7 @@ body {
             background-repeat: no-repeat;
             background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%201.png");
         }
-      }
+      } */
 
 /* .container-fluid {
     padding-right: 0;
