@@ -112,18 +112,37 @@ body {
     position: relative;
 }
 
-    /* @media (min-width: 480px) {
+    @media only screen and (min-width: 320px) and (max-width: 576px)  {
+
         .container{
-            max-height: 400px;
+            width: 100%;    
         }
+
         .bg-container-1{
-            min-width: 370px;
+            width: auto;
             max-height: 400px;
-            max-width: 900px;
-            background-repeat: no-repeat;
-            background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%201.png");
+            background-size: cover;
+            background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%201-1.png");
         }
-      } */
+        .bg-container-2{
+            max-width: 370px;
+            max-height: 400px;
+            background-size: cover;
+            background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%202-2.png");
+        }
+        .bg-container-3{
+            max-width: 370px;
+            max-height: 400px;
+            background-size: cover;
+            background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%203-2.png");
+        }
+        .bg-container-4{
+            max-width: 370px;
+            max-height: 400px;
+            background-size: cover;
+            background-image: url("https://22571237.fs1.hubspotusercontent-na1.net/hubfs/22571237/Thumbnail%204-2.png");
+        }
+      }
 
 /* .container-fluid {
     padding-right: 0;
